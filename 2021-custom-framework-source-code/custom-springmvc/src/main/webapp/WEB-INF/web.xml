@@ -4,4 +4,15 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+
+  <servlet>
+    <servlet-name>lgoumvc</servlet-name>
+    <servlet-class>com.pxyc.study.springmvcframework.servlet.PxycDispatcherServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>lgoumvc</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+
 </web-app>
